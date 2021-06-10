@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <title>Amalthea - Prosperity through technology </title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="logo.png" alt="Logo of IIT Gandhinagar"></div>
+            <!-- why used hastag here -->
+            <li> <a href="/index.html">About</a></li>
+            <li> <a href="/events.html">Events</a></li>
+            <li> <a href="#services">Sponsors</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big"><b>Amalthea:</b> Connect.Create.Collaborate</p>
+                <p class="text-small">We have witnessed exponential growth in the development of technology and its
+                    applications in the past few decades. This development has surpassed the human imagination.
+                    Currently, we are in the midst of a pandemic which has engulfed the entire world and led to
+                    countless deaths. In this time of pandemic, we are forced to stay apart. We all are locked at our
+                    homes without our friends. The theme "Connect. Collaborate. Create." is brought up with an idea to
+                    connect our hearts, collaborate our efforts and create an unprecedented Amalthea amidst this
+                    pandemic.</p>
+                <br>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+
+            </div>
+            <div class="secondhalf">
+                <img src="amal_logo.png" alt="This is the Logo">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">Events</p>
+            <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cum
+                assumenda quod a
+                eaque voluptate aliquid magnam tempore. Repellat ab molestias inventore nisi nihil iusto animi porro
+                suscipit in temporibus rem at modi velit commodi, amet eos sed veritatis obcaecati magnam culpa. Modi
+                quam
+                hic tenetur illum quod qui optio impedit dicta consequatur similique beatae blanditiis cumque vero unde
+                rem
+                dolor odit autem ex corrupti ullam, in dolorum. Est ad architecto similique nobis cupiditate fuga
+                voluptatum, delectus eos omnis repellendus blanditiis qui aperiam necessitatibus consequatur pariatur
+                minus
+
+
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="events.jpg" alt="Events" class="imgFluid">
+        </div>
+    </section>
+
+
+    <section class="section section-left">
+        <div class="paras">
+            <p class="sectiontag text-big">Webinars</p>
+            <p class="sectionSubTag text-small">Since its inception 11 years ago, the Conclave has been one of the
+                pillars of Amalthea. This year, Conclave talks will be organized virtually in form of Webinars. The
+                Webinars aim to spread ideas, foster innovation, inquisition and creativity among the masses. They will
+                be organised on a range of techno-managerial fields, current affairs, cutting-edge high impact research
+                and entrepreneurship. The Webinars will host speakers, visionaries, and leaders who will spread
+                knowledge, provide insights, and discuss solutions. The talks will also facilitate interaction between
+                audiences all over the country and the eminent speakers. Thus, going by this year’s theme, the Webinars
+                will serve as a means to “Connect, Collaborate, and Create” for participants.
+
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="webinar.png" alt="webinar" class="imgFluid">
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">Amalthea Project</p>
+            <p class="sectionSubTag text-small">For years, Amalthea has been working on its motto, ‘Prosperity Through
+                Technology’ by conducting one of the best technical summits in India. This year, Amalthea plans to
+                implement this motto to help society further. Thus, in this edition we plan to introduce a whole new
+                aspect, The Amalthea Project. The vision behind this will be addressing real-life problems of our
+                community with technology-driven solutions.
+            </p>
+            <!-- <br> -->
+            <p class="sectionSubTag text-small">
+                The Amalthea Project will be implemented by students who are members of the Amalthea team. Through the
+                Amalthea Project, we aim to build more connections within our community, collaborate our skills and
+                create something thereby justifying our theme "Connect. Collaborate. Create."
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="Artboard 1.png" alt="this is logo" class="imgFluid">
+        </div>
+    </section>
+    <!-- <hr> -->
+    <section class="contact" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder=" Enter your name">
+            <input class="form-input" type="text" name="email" id="email" placeholder=" Enter your Email">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder=" Enter your Phone number">
+            <!-- <input type="text" name="name" id="name" placeholder="Enter your name"> -->
+            <!-- <input type="text" name="name" id="name" placeholder="Enter your name"> -->
+            <textarea name="text" id="text" cols="30" rows="10" class="form-input"
+                placeholder=" Elaborate your concern"></textarea>
+            <button class="btn btn-dark">Submit</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    
+    <script src="resp.js"></script>
+    
+
+</body>
+<!-- footer add the names of the team amalthea in the footer, see videos. -->
+<!-- <script src="resp.js"></script> -->
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style_registration.css">
+</head>
+
+<body>
+    <!-- i have to add the event name or else in title i will add the event name -->
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="logo.png" alt="Logo of IIT Gandhinagar"></div>
+            <!-- why used hastag here -->
+            <li> <a href="/index.html">About</a></li>
+            <li> <a href="/events.html">Events</a></li>
+            <li> <a href="#services">Sponsors</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search" placeholder="Search here">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big"><b>Amalthea:</b> Connect.Create.Collaborate</p>
+                <p class="text-small">We have witnessed exponential growth in the development of technology and its
+                    applications in the past few decades. This development has surpassed the human imagination.
+                    Currently, we are in the midst of a pandemic which has engulfed the entire world and led to
+                    countless deaths. In this time of pandemic, we are forced to stay apart. We all are locked at our
+                    homes without our friends. The theme "Connect. Collaborate. Create." is brought up with an idea to
+                    connect our hearts, collaborate our efforts and create an unprecedented Amalthea amidst this
+                    pandemic.</p>
+                <br>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+
+            </div>
+            <div class="secondhalf">
+                <img src="amal_logo.png" alt="This is the Logo">
+            </div>
+
+        </div>
+
+    </section>
+    <div class="wrapper">
+        <div class="title">
+            Registration Form
+        </div>
+        <div class="form">
+            <div class="inputfield">
+                <label>First Name</label>
+                <input type="text" class="input">
+            </div>
+            <div class="inputfield">
+                <label>Last Name</label>
+                <input type="text" class="input">
+            </div>
+            <div class="inputfield">
+                <label>Event Name</label>
+                <input type="text" class="input">
+            </div>
+            <!-- <div class="inputfield">
+                <label>Password</label> -->
+                <!-- change the input type which is password by default -->
+                <!-- <input type="password" class="input"> 
+            </div> -->
+            <!-- <div class="inputfield">
+                <label>Confirm Password</label> -->
+                <!-- change the input type which is password by default -->
+                <!-- <input type="password" class="input">
+            </div> -->
+            <div class="inputfield">
+                <label>Gender</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <!-- add other option here -->
+                    </select>
+                </div>
+            </div>
+            <div class="inputfield">
+                <label>Email Address</label>
+                <input type="text" class="input">
+            </div>
+            <div class="inputfield">
+                <label>Phone Number</label>
+                <input type="text" class="input">
+            </div>
+            <div class="inputfield">
+                <label>Address</label>
+                <textarea class="textarea"></textarea>
+            </div>
+            <div class="inputfield">
+                <label>Postal Code</label>
+                <input type="text" class="input">
+            </div>
+            <!-- decide whether we want the checkbox or not, ig we can keep it just have it in such a way that we can send further notification to the user -->
+            <div class="inputfield terms">
+                <label class="check">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Subscribe for New Updates</p>
+            </div>
+            <div class="inputfield">
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
