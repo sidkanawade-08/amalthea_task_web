@@ -128,6 +128,10 @@
     /* pointer ban zata hai by cursor pointer */
 }
 
+.but-text{
+    text-decoration: none;
+}
+
 .btn-dark{
     color: #ffdfdf;
     border: 2px solid #aba9a7;
