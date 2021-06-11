@@ -237,7 +237,7 @@ body{
 }
 
 .background{
-    background: rgba(34, 31, 31, 0.9) url('../lal_minar_and_classrooms.jpg');
+    background: rgba(34, 31, 31, 0.9) url('../img/lal_minar_and_classrooms.jpg');
     background-size: cover;
     background-blend-mode: darken;
     margin-left: -11px;
